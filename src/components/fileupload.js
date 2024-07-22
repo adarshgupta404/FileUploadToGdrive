@@ -31,7 +31,7 @@ const FileUpload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3333/s3upload/uploadtogdrive",
+        "https://api.omnileadz.com/s3upload/uploadtogdrive",
         formData,
         {
           headers: {
